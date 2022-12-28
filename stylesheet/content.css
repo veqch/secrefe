@@ -1,0 +1,786 @@
+body {
+  background: black;
+  }
+  .t1 {
+    margin-top: 137px;
+    margin-left: 185px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t1 5s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t2 {
+    margin-top: 137px;
+    margin-left: 294px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t2 2s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t3 {
+    margin-top: 137px;
+    margin-left: 404px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t3 3s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t4 {
+    margin-top: 137px;
+    margin-left: 514px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t4 5s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t5 {
+    margin-top: 137px;
+    margin-left: 624px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t5 4s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t6 {
+    margin-top: 137px;
+    margin-left: 734px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t6 5s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t7 {
+    margin-top: 137px;
+    margin-left: 844px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t7 3s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t8 {
+    margin-top: 137px;
+    margin-left: 954px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t8 5s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t9 {
+    margin-top: 137px;
+    margin-left: 1064px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t9 2s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t10 {
+    margin-top: 137px;
+    margin-left: 1174px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t10 5s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t11 {
+    margin-top: 137px;
+    margin-left: 1284px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t11 8s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t12 {
+    margin-top: 137px;
+    margin-left: 1394px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t12 5s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .t13 {
+    margin-top: 137px;
+    margin-left: 1504px;
+    position: absolute;
+    transform-origin: bottom;
+    animation: t13 2s linear alternate infinite;
+    animation-timing-function: ease;
+  }
+  .sec1 {
+    position: absolute;
+    margin-top: 419px;
+    margin-left: 5px;
+    margin-bottom: 104px;
+    margin-right: 872px;
+  }
+  .sec2 {
+    position: absolute;
+    margin-top: 419px;
+    margin-left: 861px;
+    margin-bottom: 104px;
+    margin-right: 52px;
+  }
+  .container {
+    width: 1560px;
+    height: 250px;
+    position: absolute;
+    margin-left: 97px;
+    margin-top: 962px;
+    margin-right: 97px;
+    overflow: hidden;
+    border-radius: 132px;
+    border: 4.4px solid;
+    border-color: white;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .stroka {
+    width: 3300px;
+    height: 172px;
+    background: url('../images/test.svg');
+    display: block;
+    position: absolute;
+    top: 40px;
+    animation: stroke 8s linear infinite;
+  }
+
+  .w2 {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 1295px;
+    margin-bottom: 20px;
+  }
+  .r1 {
+    width: 219px;
+    height: 219px;
+    margin-top: 1569px;
+    margin-left: 80px;
+    background: url('images/r1.svg');
+    position: absolute;
+    animation: r1 10s linear infinite;
+  }
+  .r1:hover {
+    animation-play-state: paused;
+  }
+  .r2 {
+    width: 350px;
+    height: 301px;
+    margin-left: 880px;
+    margin-top: 1500px;
+    background: url('images/r2.svg');
+    position: absolute;
+    animation: r1 2s linear infinite;
+  }
+  .r3 {
+    width: 350px;
+    height: 301px;
+    margin-left: 700px;
+    margin-top: 1500px;
+    background: url('images/r3.svg');
+    position: absolute;
+    animation: r1 2s linear infinite;
+  }
+  .r4 {
+    width: 219px;
+    height: 219px;
+    margin-left: 1349px;
+    margin-top: 1633px;
+    background: url('images/r4.svg');
+    position: absolute;
+    animation: r4 4s linear infinite;
+  }
+  .r4:hover {
+    animation-play-state: paused;
+  }
+  .r5 {
+    width: 217px;
+    height: 448px;
+    margin-left: 1200px;
+    margin-top: 1754px;
+    background: url('images/r5.svg');
+    position: absolute;
+    animation: r1 10s linear infinite;
+  }
+  .r6 {
+    width: 394px;
+    height: 320px;
+    margin-left: 1200px;
+    margin-top: 2300px;
+    background: url('images/r6.svg');
+    position: absolute;
+    animation: r4 3s linear infinite;
+  }
+  .r6:hover {
+    animation-play-state: paused;
+  }
+  .r7 {
+    width: 385px;
+    height: 388px;
+    margin-left: 500px;
+    margin-top: 2134px;
+    background: url('images/r7.svg');
+    position: absolute;
+    animation: r4 14s linear infinite;
+  }
+  .r8 {
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 2184px;
+    background: url('images/r8.svg');
+    position: absolute;
+    animation: r1 3s linear infinite;
+  }
+  .r8:hover {
+    animation-play-state: paused;
+  }
+  .r9 {
+    width: 304px;
+    height: 304px;
+    margin-left: 450px;
+    margin-top: 1723px;
+    background: url('images/r9.svg');
+    position: absolute;
+    animation: r4 3s linear infinite;
+  }
+  .r10 {
+    width: 304px;
+    height: 304px;
+    margin-left: 500px;
+    margin-top: 1723px;
+    background: url('images/r10.svg');
+    position: absolute;
+    animation: r1 3s linear infinite;
+  }
+  .w3 {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 2600px;
+    margin-bottom: 20px;
+  }
+  .s {
+    width: 1414px;
+    height: 667px;
+    margin-left: 173px;
+    margin-top: 2772px;
+    margin-right: 173px;
+    position: absolute;
+  }
+  .s1 {
+    width: 28px;
+    height: 56px;
+    margin-left: 446px;
+    margin-top: 2980px;
+    margin-right: 1254px;
+    position: absolute;
+    animation: s1 1s infinite;
+  }
+  .s2 {
+    width: 28px;
+    height: 56px;
+    margin-left: 170px;
+    margin-top: 3086px;
+    margin-right: 1531px;
+    position: absolute;
+    animation: s1 0.8s infinite;
+  }
+  .s3 {
+    width: 28px;
+    height: 56px;
+    margin-left: 573px;
+    margin-top: 3219px;
+    margin-right: 1129px;
+    position: absolute;
+    animation: s1 3s infinite;
+  }
+  .s4 {
+    width: 28px;
+    height: 56px;
+    margin-left: 760px;
+    margin-top: 3227px;
+    margin-right: 942px;
+    position: absolute;
+    animation: s1 1s infinite;
+  }
+  .s5 {
+    width: 28px;
+    height: 56px;
+    margin-left: 1013px;
+    margin-top: 3240px;
+    margin-right: 686px;
+    position: absolute;
+    animation: s1 0.5s infinite;
+  }
+  .s6 {
+    width: 28px;
+    height: 56px;
+    margin-left: 1344px;
+    margin-top: 3050px;
+    margin-right: 358px;
+    position: absolute;
+    animation: s1 1s infinite;
+  }
+  .s7 {
+    width: 28px;
+    height: 56px;
+    margin-left: 1557px;
+    margin-top: 2829px;
+    margin-right: 144px;
+    position: absolute;
+    animation: s1 3s infinite;
+  }
+  .n1 {
+    width: 28px;
+    height: 56px;
+    margin-left: 844px;
+    margin-top: 2857px;
+    margin-right: 862px;
+    position: absolute;
+    animation: s1 2s infinite;
+  }
+  .n2 {
+    width: 28px;
+    height: 56px;
+    margin-left: 899px;
+    margin-top: 2992px;
+    margin-right: 801px;
+    position: absolute;
+    animation: s1 1s infinite;
+  }
+  .n3 {
+    width: 28px;
+    height: 56px;
+    margin-left: 1030px;
+    margin-top: 2941px;
+    margin-right: 668px;
+    position: absolute;
+    animation: s1 3s infinite;
+  }
+  .n4 {
+    width: 28px;
+    height: 56px;
+    margin-left: 1172px;
+    margin-top: 3012px;
+    margin-right: 526px;
+    position: absolute;
+    animation: s1 0.4s infinite;
+  }
+  .n5 {
+    width: 28px;
+    height: 56px;
+    margin-left: 1363px;
+    margin-top: 2800px;
+    margin-right: 336px;
+    position: absolute;
+    animation: s1 0.5s infinite;
+  }
+  .n6 {
+    width: 28px;
+    height: 56px;
+    margin-left: 847px;
+    margin-top: 3374px;
+    margin-right: 859px;
+    position: absolute;
+    animation: s1 3s infinite;
+  }
+  .n7 {
+    width: 28px;
+    height: 56px;
+    margin-left: 1029px;
+    margin-top: 3453px;
+    margin-right: 671px;
+    position: absolute;
+    animation: s1 0.4s infinite;
+  }
+  .w4 {
+    position: absolute;
+    width: 499px;
+    height: 182px;
+    margin-left: 80px;
+    margin-top: 3420px;
+  }
+  .line {
+    position: absolute;
+    width: 1771px;
+    height: 1291px;
+    margin-top: 3600px;
+  }
+  .c1 {
+    position: absolute;
+    width: 65px;
+    height: 64px;
+    margin-left: 1040px;
+    margin-top: 3740px;
+    margin-right: 649px;
+    animation: s1 1s infinite;
+  }
+  .c2 {
+    position: absolute;
+    width: 65px;
+    height: 64px;
+    margin-left: 1110px;
+    margin-top: 3900px;
+    margin-right: 649px;
+    animation: s1 2s infinite;
+  }
+  .c3 {
+    position: absolute;
+    width: 65px;
+    height: 64px;
+    margin-left: 1200px;
+    margin-top: 3920px;
+    margin-right: 649px;
+    animation: s1 0.8s infinite;
+  }
+  .c4 {
+    position: absolute;
+    width: 65px;
+    height: 64px;
+    margin-left: 1390px;
+    margin-top: 3960px;
+    margin-right: 649px;
+    animation: s1 0.5s infinite;
+  }
+  .c5 {
+    position: absolute;
+    width: 65px;
+    height: 64px;
+    margin-left: 1382px;
+    margin-top: 4185px;
+    margin-right: 649px;
+    animation: s1 1s infinite;
+  }
+  .tr1 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    margin-left: 1098px;
+    margin-top: 4550px;
+    margin-right: 574px;
+    animation: s1 1s infinite;
+  }
+  .tr2 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    margin-left: 1255px;
+    margin-top: 4593px;
+    margin-right: 415px;
+    animation: s1 0.5s infinite;
+  }
+  .tr3 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    margin-left: 1347px;
+    margin-top: 4420px;
+    margin-right: 574px;
+    animation: s1 0.8s infinite;
+  }
+  .c6 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 320px;
+    margin-top: 4325px;
+    margin-right: 1056px;
+    animation: s1 1s infinite;
+  }
+  .c7 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 390px;
+    margin-top: 4505px;
+    margin-right: 649px;
+    animation: s1 0.5s infinite;
+  }
+  .c8 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 580px;
+    margin-top: 4470px;
+    margin-right: 649px;
+    animation: s1 0.8s infinite;
+  }
+  .sc1 {
+    position: absolute;
+    width: 58px;
+    height: 60px;
+    margin-left: 725px;
+    margin-top: 3865px;
+    margin-right: 649px;
+    animation: s1 0.5s infinite;
+  }
+  .sc2 {
+    position: absolute;
+    width: 58px;
+    height: 60px;
+    margin-left: 765px;
+    margin-top: 4120px;
+    margin-right: 649px;
+    animation: s1 1s infinite;
+  }
+  .sc3 {
+    position: absolute;
+    width: 58px;
+    height: 60px;
+    margin-left: 730px;
+    margin-top: 4330px;
+    margin-right: 649px;
+    animation: s1 0.8s infinite;
+  }
+  .sc4 {
+    position: absolute;
+    width: 58px;
+    height: 60px;
+    margin-left: 990px;
+    margin-top: 4360px;
+    margin-right: 649px;
+    animation: s1 1s infinite;
+  }
+  .tr4 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 134px;
+    margin-top: 4100px;
+    margin-right: 574px;
+    animation: s1 0.8s infinite;
+  }
+  .tr5 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 168px;
+    margin-top: 3815px;
+    margin-right: 574px;
+    animation: s1 1s infinite;
+  }
+  .tr6 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 290px;
+    margin-top: 3725px;
+    margin-right: 574px;
+    animation: s1 0.5s infinite;
+  }
+  .w5 {
+    position: absolute;
+    width: 1073px;
+    height: 166px;
+    margin-left: 80px;
+    margin-top: 4900px;
+  }
+  .w6 {
+    position: absolute;
+    width: 550px;
+    height: 182px;
+    margin-left: 80px;
+    margin-top: 5900px;
+  }
+  .w7 {
+    position: absolute;
+    width: 919px;
+    height: 56px;
+    margin-left: 80px;
+    margin-top: 7400px;
+  }
+  .star1 {
+    position: absolute;
+    width: 427px;
+    height: 324px;
+    margin-left: 1100px;
+    margin-top: 5800px;
+    animation: s1 0.5s infinite;
+  }
+  .star2 {
+    position: absolute;
+    width: 427px;
+    height: 342px;
+    margin-left: 1217px;
+    margin-top: 6300px;
+    margin-right: 84px;
+    animation: s1 1s infinite;
+  }
+  .star3 {
+    position: absolute;
+    width: 427px;
+    height: 342px;
+    margin-left: 140px;
+    margin-top: 6550px;
+    margin-right: 1161px;
+    animation: s1 0.8s infinite;
+  }
+  .bye {
+    position: absolute;
+    width: 1557px;
+    height: 2322px;
+    margin-top: 5100px;
+    margin-left: 152px;
+    margin-right: 152px;
+  }
+  .b1 {
+    width: 125px;
+    height: 125px;
+    margin-left: 220px;
+    margin-top: 5140px;
+    position: absolute;
+    animation: r1 3s linear infinite;
+  }
+  .b2 {
+    width: 125px;
+    height: 125px;
+    margin-left: 420px;
+    margin-top: 5140px;
+    position: absolute;
+    animation: r1 3s linear infinite;
+  }
+  .b3 {
+    width: 125px;
+    height: 125px;
+    margin-left: 620px;
+    margin-top: 5140px;
+    position: absolute;
+    animation: r1 3s linear infinite;
+  }
+  .b4 {
+    width: 125px;
+    height: 125px;
+    margin-left: 860px;
+    margin-top: 5140px;
+    position: absolute;
+    animation: r1 3s linear infinite;
+  }
+  .b5 {
+    width: 125px;
+    height: 125px;
+    margin-left: 1080px;
+    margin-top: 5140px;
+    position: absolute;
+    animation: r1 3s linear infinite;
+  }
+  .b6 {
+    width: 125px;
+    height: 125px;
+    margin-left: 1320px;
+    margin-top: 5140px;
+    position: absolute;
+    animation: r1 3s linear infinite;
+  }
+  .final {
+    position: absolute;
+    width: 1440px;
+    height: 186px;
+    margin-top: 7550px;
+  }
+  .au {
+    position: absolute;
+    margin-left: 80px;
+    width: 269px;
+    height: 64px;
+    margin-top: 7620px;
+  }
+  .hse {
+    position: absolute;
+    margin-left: 1383px;
+    width: 199px;
+    height: 112px;
+    margin-top: 7600px;
+  }
+  @keyframes stroke {
+    0% {
+      left: 0px;
+    }
+    100% {
+      left: -1740px;
+    }
+  }
+  @keyframes r1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes r4 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes t1 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-100px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t2 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(150px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t3 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-100px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t4 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(180px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t5 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-90px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t6 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(160px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t7 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-130px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t8 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-100px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t9 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(100px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t10 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-90px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t11 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(170px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t12 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(150px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes t13 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-130px);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes s1 {
+    0% {opacity: 100%}
+    50% {opacity: 0}
+    100% {opacity: 100%}
+  }
